@@ -1,0 +1,35 @@
+
+*{
+
+margin:0 px;
+padding:0px;
+box-sizing: border-box;
+
+}
+
+h3{
+
+    color:green;
+}
+
+body{
+
+ font-family: "Cambria";  
+ font-size:100%;
+ letter-spacing: 2px;  
+}
+
+article
+{
+  background:whitesmoke;
+  width:100%;
+  max-width: 1200px;
+  margin: 3rem auto;
+}
+@media screen and (min-width:992px)
+{
+    article{
+        display:grid;
+        grid-template-columns:repeat(3,1fr);
+    }
+}
